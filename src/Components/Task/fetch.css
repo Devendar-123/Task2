@@ -1,0 +1,66 @@
+
+.user-list-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .search-input {
+    margin-left: 50px;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+  }
+  
+
+  .loading-message {
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+  }
+  
+  
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-list li strong {
+    color: #333;
+    font-size: 18px;
+  }
+  
+
+  .no-users-message {
+    font-size: 18px;
+    color: #f44336;
+    text-align: center;
+    margin-top: 20px;
+  }
+  

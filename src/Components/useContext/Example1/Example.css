@@ -1,0 +1,103 @@
+body{
+    background: black;
+    color: aqua;
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    padding: 3px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 4px 5px solid rgba(127, 209, 14, 0.877);
+    
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+td,th{
+    border: 1px solid orange;
+    text-align: center;
+    /* padding: 10px; */
+    
+}
+
+th{
+    color: yellowgreen;
+    font-weight: 900;
+    font-size: 25px;
+    padding: 15px;
+}
+
+caption{
+    font-size: 35px;
+    font-weight: 900;
+    text-decoration: underline;
+    color: rgb(5, 215, 222);
+    padding: 10px;
+}
+
+#th1{
+    color: violet;
+    background-color: indigo;
+}
+
+#th2{
+    color: rgb(43, 170, 216);
+    background-color: rgb(60, 83, 60);
+}
+#th3{
+    color: rgb(135, 135, 218);
+    background-color: rgb(245, 229, 201);
+}
+#th4{
+    color: rgb(23, 229, 23);
+    background-color: rgb(108, 107, 106);
+}
+#th5{
+    color: yellow;
+    background-color: rgb(63, 67, 67);
+}
+#th6{
+    color: rgb(190, 222, 236);
+    background-color: rgb(63, 67, 67);
+}
+
+#name,#td1{
+    color: rgb(51, 239, 148);
+    font-weight: 800;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #444a4e;
+}
+
+#email,#td2{
+    color: rgb(243, 237, 225);
+    font-weight: 700;
+    padding: 10px;
+    background-color: #2b4402;
+}
+
+#img1,#td3{
+    background-color: #fff;
+    color: black;
+}
+
+#img2,#td4{
+    background-color: #98d7ec;
+    color: rgb(5, 51, 70);
+}
+
+#img3,#td5{
+    background-color: rgb(173, 173, 172);
+    color: rgb(69, 45, 0);
+}
+#img4,#td6{
+    background-color: rgb(66, 82, 76);
+    color: rgb(248, 165, 13);
+}
